@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  cod_prod: MyString
+  descr: MyString
+  precio: 1
+
+two:
+  cod_prod: MyString
+  descr: MyString
+  precio: 1

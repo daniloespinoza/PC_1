@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Nombre:</b>
+  <%= @user.nombre %>
+</p>
+
+<p>
+  <b>Apellido:</b>
+  <%= @user.apellido %>
+</p>
+
+<p>
+  <b>Num tarjeta:</b>
+  <%= @user.num_tarjeta %>
+</p>
+
+<table>
+	<% @user.products.each do |book| %>
+		<tr>
+			<td><%= products.descr  %></td>
+		</tr>
+	
+	<% end %>
+</table>
+
+<%= link_to 'Add Product', add_product_user_path(@user) %>
+<%= link_to 'Edit', edit_user_path(@user) %> |
+<%= link_to 'Back', users_path %>
