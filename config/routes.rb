@@ -1,4 +1,6 @@
 Tienda::Application.routes.draw do
+  resources :vendors
+
   resources :user_products
 
   resources :products
